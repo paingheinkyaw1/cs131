@@ -1,0 +1,225 @@
+    1  passwd
+    2  --version
+    3  more --version
+    4  less -version
+    5  less --version
+    6  help
+    7  ls
+    8  vi spotify-2023.csv
+    9  ls
+   10  mkdir cs131
+   11  cd cs131
+   12  wget www.github.com
+   13  ls
+   14  mkdir Worksheet1
+   15  del index.html
+   16  delete index.html
+   17  rm index.html
+   18  ls
+   19  cd Worksheet1
+   20  wget www.github.com
+   21  ls
+   22  cd
+   23  ls
+   24  cd cs131
+   25  git init
+   26  git config --global user.email "paingheinkyaw1@gmail.com"
+   27  git config --global user.name "paingheinkyaw1"
+   28  cd
+   29  cd ~/.ssh && ssh-keygen
+   30  mkdir ~/.ssh
+   31  cat id_rsa.pub
+   32  cd ~/.ssh && ssh-keygen
+   33  cat id_rsa.pub
+   34  ls
+   35  rm *.
+   36  rm .*
+   37  rm *
+   38  ls
+   39  id_rsa.pub
+   40  cat id_rsa.pub
+   41  cd ~/.ssh && ssh-keygen
+   42  cat id_rsa.pub
+   43  cd
+   44  ls
+   45  cd cs131
+   46  ls
+   47  cd Worksheet1
+   48  ls
+   49  cd
+   50  cd 131
+   51  cd cs131
+   52  git remote add origin git@github.com:paingheinkyaw1/cs131.git
+   53  git commit -m "First push"
+   54  git add Worksheet1
+   55  cd Worksheet1
+   56  history > cmds.log
+   57  cd
+   58  cd cs131/WOrksheet1
+   59  cd cs131/Worksheet1
+   60  ls
+   61  git add cmds.log
+   62  git add index.html
+   63  git commit -m "First commit" -a
+   64  git push -u origin master
+   65  git push --set-upstream origin master or git push --set-upstream origin main
+   66  cd
+   67  ls
+   68  cd cs131
+   69  git init
+   70  git commit -m "first commit"
+   71  git branch -m main
+   72  git remote add origin https://github.com/paingheinkyaw1/cs131.git
+   73  git push -u origin main
+   74  git remote add origin git@github.com:paingheinkyaw1/cs131.git
+   75  git push -u origin main
+   76  git push --set-upstream origin master or git push --set-upstream origin main
+   77  git status
+   78  cd Worksheet1
+   79  ls
+   80  git add *
+   81  git commit -m "first commit"
+   82  git add cmds.log
+   83  git add index.html
+   84  git push --set-upstream origin master or git push --set-upstream origin main
+   85  git remote add origin https://github.com/paingheinkyaw1/cs131.git
+   86  git push -u origin master
+   87  git remote remove origin
+   88  git init
+   89  git remote add origin git@github.com:paingheinkyaw1/cs131.git
+   90  git add cmds.log
+   91  git index.html
+   92  git add index.html
+   93  git commit -m "first commit"
+   94  git push -u origin master
+   95  git config --global user.email "98957792+paingheinkyaw1@users.noreply.github.com"
+   96  git push -u origin master
+   97  git config --global user.email "paingheinkyaw1@users.noreply.github.com"
+   98  git push -u origin master
+   99  git config --global user.email "98957792+paingheinkyaw1@users.noreply.github.com"
+  100  git push -u origin master
+  101  git config --global user.email "paingheinkyaw1@gmail.com"
+  102  git push -u origin master
+  103  cd
+  104  cd cs131
+  105  git init
+  106  git push -u origin master
+  107  git commit -m "first commit"
+  108  git push -u origin master
+  109  cd Worksheet 1
+  110  cd Worksheet1
+  111  ls
+  112  git add cmds.log
+  113  git add index.html
+  114  git commit -m "First commit"
+  115  cd
+  116  ls
+  117  cd cs131
+  118  ls
+  119  cd Worksheet1
+  120  ls
+  121  cd cs131
+  122  cd
+  123  cd cs131
+  124  git add Worksheet1
+  125  git commit -m "First commit"
+  126  git push -u origin master
+  127  git commit -m "First commit" -a
+  128  git push -u origin master -f
+  129  cd
+  130  cd cs131
+  131  git init
+  132  git remote add origin git@github.com:paingheinkyaw1/cs131.git
+  133  git config --global user.email "paingheinkyaw1@gmail.com"
+  134  git config --global user.name "paingheinkyaw1"
+  135  rm Worksheet1
+  136  cd Worksheet1
+  137  ls
+  138  history > cmds.log
+  139  ls
+  140  git add .
+  141  git commit -m "first commit" -a
+  142  git push -u origin master
+  143   cd
+  144  cd cs131
+  145  git init
+  146  git add Worksheet1
+  147  git commit -m "first commit" -a
+  148  git push -u origin master
+  149  git remote add origin git@github.com:paingheinkyaw1/cs131.git
+  150  git remove remote origin
+  151  git remote remove
+  152  git remote remove origin
+  153  git remote add origin git@github.com:paingheinkyaw1/cs131.git
+  154  git commit -m "first commit" -a
+  155  git push -u origin master
+  156  git status
+  157  git branch
+  158  git push -u origin master -f
+  159  git push -u origin master -a
+  160  git push -u origin master -all
+  161  git push -u origin master --all
+  162  git add Worksheet1
+  163  cd Worksheet1
+  164  git add .
+  165  git add *.html
+  166  git add *.log
+  167  git commit -m "first commit" -a
+  168  git push -u origin master --all
+  169  git push -u origin master
+  170  git push -u origin
+  171  cd
+  172  ls
+  173  cd cs131
+  174  ls
+  175  add Worksheet1
+  176  git add Worksheet1
+  177  git add Worksheet1/
+  178  git push -u origin
+  179  git push --set-upstream origin master
+  180  cd
+  181  rm cs131
+  182  rm-rf
+  183  rm -rf
+  184  cd
+  185  ls
+  186  rm -rf cs131
+  187  ls
+  188  mkdir cs131
+  189  cd cs131
+  190  git init
+  191  mkdir Worksheet1
+  192  git remote add origin git@github.com:paingheinkyaw1/cs131.git
+  193  git add Worksheet1/
+  194  git status
+  195  cd Worksheet1
+  196  wget www.github.com
+  197  history > cmds.log
+  198  ls
+  199  git add cmds.log
+  200  git add index.html
+  201  git commit -m "First Commit"
+  202  git push -u origin
+  203  git push --set-upstream origin master
+  204  cd
+  205  ls
+  206  cd cs131
+  207  ls
+  208  mkdir Worksheet2
+  209  cd Worksheet2
+  210  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  211  ls
+  212  grep "United States" Global\ YouTube\ Statistics.csv
+  213  grep "Music" Global\ YouTube\ Statistics.csv
+  214  grep "Music" Global\ YouTube\ Statistics.csv > music_category.csv
+  215  ls
+  216  wc -l music_category.csv > counts.txt
+  217  wc -w music_category.csv >> counts.txt
+  218  ls
+  219  cat counts.txt
+  220  vi counts.txt
+  221  cat counts.txt
+  222  ls
+  223  rm music_category.csv
+  224  ls
+  225  history > cmds.log

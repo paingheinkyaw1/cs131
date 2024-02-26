@@ -1,0 +1,54 @@
+  233  ls
+  234  cd cs131
+  235  mkdir Assignment1  //Question 1
+  236  ls
+  237  cd Assignment1
+  238  echo $SHELL        //Question 2
+  239  echo $HOME         //Question 2
+  240  username
+  241  USERNAME
+  242  id -u              //Question 3
+  243  groups             //Question 3
+  244  mkdir myDir        //Question 4
+  245  chmod u-w myDir    //Question 4
+  246  cd myDir           //Question 4
+  247  ls                 //Question 4
+  248  ls -l              //Question 4
+  249  touch exam         //Quetion 4
+  250  cd ..
+  251  mkdir myDir2       //Question 5
+  252  mkdir myDir3       //Question 5
+  253  cd myDir2
+  254  touch myFile.txt   //Question 6
+  255  cd
+  256  cd cs131
+  257  cd Assignment1
+  258  cd myDir2
+  259  ls
+  260  cd..
+  261  cd ..
+  262  cd myDir3
+  263  path
+  264  PATH
+  265  echo $PATH
+  266  cd ..
+  267  cd myDir2
+  268  ls
+  269  mv myFile.txt /cs131/Assignment1/myDir3
+  270  cd ..
+  271  cd myDir3
+  272  pwd
+  273  cd ..
+  274  cd myDir2                        
+  275  mv myFile.txt /mnt/scratch/SP24_CS131_Jyotika/piercesp24/cs131/Assignment1/myDir3 //Question 6
+  276  ls
+  277  cd ..
+  278  myDir3
+  279  cd myDir3
+  280  ls
+  281  cd ..
+  282  free -m                 //Question 6
+  283  man free                
+  284  cat /etc/os-release     //Question 9
+  285  ls -l /etc/os-release   //Question 10
+  286  history > cmds.log 

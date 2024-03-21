@@ -1,0 +1,79 @@
+1. The command find /etc -type f > one.txt 2> two.txt searches for all files (not directories) under the /etc directory recursively. It redirects the output (list of files found) to one.txt and any errors encountered (like permission denied) to two.txt.
+
+b)
+one.txt file lists all the files found under the /etc directory. It includes configuration files, scripts, certificates, and many other types of files that are crucial for system settings and operations.
+
+two.txt file contains error messages for directories that the find command was unable to access due to permission issues.
+
+2.
+COMMAND:
+ cut -d, -f20,21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr | head -3
+
+EXPLANATION:
+cut -d, -f20,21: This extracts the 20th (Year) and 21st (Month) columns from the file. The -d, option specifies that the delimiter is a comma, which is standard for CSV files.
+
+sort: This sorts the Year-Month combinations to group identical entries together, which is necessary for uniq -c to count them accurately.
+
+uniq -c: This counts the occurrences of each unique Year-Month combination. The -c option prefixes lines by the number of occurrences.
+
+sort -nr: This sorts the results numerically (-n) and in reverse order (-r), putting the most frequent combinations at the top.
+
+head -3: This displays the first 3 lines of the output, which correspond to the top 3 combinations.
+
+OUTPUT:
+     15 2006,Mar
+     13 2014,Jul
+     12 2014,Aug
+
+
+3. [piercesp24@sjsu Assignment2]$ ps -u $USER
+    PID TTY          TIME CMD
+3960817 ?        00:00:02 systemd
+3960819 ?        00:00:00 (sd-pam)
+3960825 ?        00:00:00 sshd
+3960826 pts/29   00:00:00 bash
+3981948 pts/29   00:00:00 ps
+
+4. [piercesp24@sjsu ~]$ ps -u $USER
+    PID TTY          TIME CMD
+3960817 ?        00:00:02 systemd
+3960819 ?        00:00:00 (sd-pam)
+3960825 ?        00:00:00 sshd
+3960826 pts/29   00:00:00 bash
+3981986 pts/29   00:00:00 vim
+3982152 ?        00:00:00 sshd
+3982155 pts/4    00:00:00 bash
+3982282 pts/4    00:00:00 ps
+
+b) Process ID for the vim is 3981986
+I noticed there are two sshd and bash due to there being two terminals initiated and for running the second ‘ps’ command.
+
+c) d)
+
+[piercesp24@sjsu ~]$ ps -u $USER
+    PID TTY          TIME CMD
+3960817 ?        00:00:04 systemd
+3960819 ?        00:00:00 (sd-pam)
+3960825 ?        00:00:00 sshd
+3960826 pts/29   00:00:00 bash
+3982152 ?        00:00:00 sshd
+3982155 pts/4    00:00:00 bash
+3995303 pts/4    00:00:00 ps
+
+The process vim is no longer there because we quit the vi. This change is expected; closing an application should stop its process. The systemd, sshd, and bash processes remain because they are essential to the user's session and the system's operation. The disappearance of the vim process from the list confirms that it has been successfully closed.
+
+5.
+The init process is the first process that starts when a Linux system boots up and is responsible for starting other processes. It has a process ID (PID) of 1.
+
+[piercesp24@sjsu Assignment2]$ ps -p 1
+    PID TTY          TIME CMD
+      1 ?        14:11:36 systemd
+
+6.
+The command ps aux is used to display information about all running processes in a Unix-like operating system. It shows details such as the user owning the process, CPU and memory usage, process ID, and the command that initiated the process. This command is widely used for monitoring system resources and managing processes.
+
+a stands for all users' processes.
+u provides a detailed user-oriented format.
+x includes processes not attached to a terminal.
+
+

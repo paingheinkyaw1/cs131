@@ -1,0 +1,28 @@
+  327  ls
+  328  mkdir Assignment2
+  329  cd Assignment2
+  330  ls
+  331  find /etc -type f > one.txt 2> two.txt   //Question 1
+  332  ls
+  333  touch Assignment2.txt
+  334  cat one.txt
+  335  cat two.txt
+  336  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv  //Question 2
+  337  ls
+  338  cat 'Global Youtube Statistics.csv'
+  339  ls
+  340  cat ''Global Youtube Statistics.csv''
+  341  cat Global_Youtube_Statistics.csv
+  342  cat Global\ Youtube\ Statistics.csv
+  343  head -n 1 Global\ Youtube\ Statistics.csv
+  344  ls
+  345  cat Global\ YouTube\ Statistics.csv 
+  346  cut -d, -f20,21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr | head -3 //Question 3
+  347  vi file.txt     //Question 4
+  348  ps -u $USER     //Quetsion 4
+  349  vi file.txt
+  350  ps -p 1         //Question 5
+  351  ls
+  352  vi Assignment2.txt
+  353  cat Assignment2.txt
+  354  history > cmds.log

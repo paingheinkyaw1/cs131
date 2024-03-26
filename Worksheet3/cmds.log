@@ -1,0 +1,26 @@
+  424  awk -F, '$8=="United States" {print $0}' Global\ YouTube\ Statistics.csv | sort -t, -k17,17nr | cut -d',' -f2,8,16 | head -n 1 > ws3.txt
+  425  awk -F, '$8=="United Kingdom" {print $0}' Global\ YouTube\ Statistics.csv | sort -t, -k17,17nr | cut -d',' -f2,8,16 | head -n 1 >> ws3.txt
+  426  awk -F, '$8=="India" {print $0}' Global\ YouTube\ Statistics.csv | sort -t, -k17,17nr | cut -d',' -f2,8,16 | head -n 1 >> ws3.txt
+  427  awk -F, '$5=="Sports" {print $0}' 'Global YouTube Statistics.csv' | sort -t, -k3,3nr  | cut -d',' -f2,3,10 | head -n 1 >> ws3.txt
+  428  awk -F, '$5=="Education" {print $0}' 'Global YouTube Statistics.csv' | sort -t, -k3,3nr  | cut -d',' -f2,3,10 | head -n 1 >> ws3.txt
+  429  awk -F, '$5=="Entertainment" {print $0}' 'Global YouTube Statistics.csv' | sort -t, -k3,3nr  | cut -d',' -f2,3,10 | head -n 1 >> ws3.txt
+  430  cat ws3.txt
+  431  vi ws3.txt
+  432  history > cmds.log
+  433  ls
+  434  cat cmds.log
+  435  sed -i '1,364d' cmds.log
+  436  sed -i '1,423d' cmds.log
+  437  cat cmds.log
+  438  cat mds.log
+  439  ls
+  440  cat cmds.log
+  441  history > cmds.log
+  442  cat cmds.log
+  443  sed -i '1,423d' cmds.log
+  444  cat cmds.log
+  445  sed -i '' '1,423d' cmds.log
+  446  sed -i '1,423d' cmds.log
+  447  cat cmds.log
+  448  vi cmds.log
+  449  history > cmds.log

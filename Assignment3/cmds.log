@@ -1,0 +1,46 @@
+  554  cd cs131
+  555  mkdir Assignment3
+  556  ls
+  557  cd Assignment3
+  558  ls
+  559  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/last.fake
+  560  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/passwd.fake
+  561  ls
+  562  wc -l last.fake
+  563  awk '/sp24/ {print}' last.fake > lastsp24.fake
+  565  awk '/sp24/ {print}' last.fake > lastsp24.fake
+  566  ls
+  567  cat lastsp24.fake
+  568  wc -l lastsp24.fake
+  569  awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print} END {print "Kudos to these people for putting in the work"}ls
+  570  q
+  571  quit
+  572  d
+  573  a
+  574  q
+  575  ls
+  576  cd 131
+  577  ls
+  578  cd cs131
+  579  ls
+  580  cd Assignment3
+  581  ls
+  582  awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print} END {print "Kudos to these people for putting in the work"}
+  583  ;
+  584  ;;
+  585  ;
+  586  ls
+  587  cd cs131
+  588  cd Assignment3
+  589  ls
+  590  awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print} END {print "Kudos to these people for putting in the work"}'
+  591  awk '($7 >= "23:00" || $7 <= "04:00") {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}'
+  592  awk '($7 >= "05:00" || $7 <= "09:00") {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}'
+  593  awk '$1 ~ /^t/' lastsp24.fake | awk '{print $1}' | sort | uniq
+  594  awk -F: '($1 ~ /^a/ && $3 % 2 == 0) {print $1}' passwd.fake | sort | uniq
+  595  sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u
+  596  ls
+  597  vi Assignment3.txt
+  598  ls
+  599  cat Assignment3.txt
+  600  history > cmds.log

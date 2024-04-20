@@ -6,12 +6,12 @@
   559  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/last.fake
   560  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/passwd.fake
   561  ls
-  562  wc -l last.fake
-  563  awk '/sp24/ {print}' last.fake > lastsp24.fake
+  562  wc -l last.fake (Task 1 question 1)
+  563  awk '/sp24/ {print}' last.fake > lastsp24.fake (Task 1 Question 2)
   565  awk '/sp24/ {print}' last.fake > lastsp24.fake
   566  ls
   567  cat lastsp24.fake
-  568  wc -l lastsp24.fake
+  568  wc -l lastsp24.fake (Task 1 Question 3)
   569  awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print} END {print "Kudos to these people for putting in the work"}ls
   570  q
   571  quit
@@ -33,12 +33,24 @@
   587  cd cs131
   588  cd Assignment3
   589  ls
+  
+Task 2
   590  awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print} END {print "Kudos to these people for putting in the work"}'
-  591  awk '($7 >= "23:00" || $7 <= "04:00") {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}'
-  592  awk '($7 >= "05:00" || $7 <= "09:00") {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}'
+
+ Task 3  
+591  awk '($7 >= "23:00" || $7 <= "04:00") {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}'
+
+ Task 4  
+592  awk '($7 >= "05:00" || $7 <= "09:00") {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}'
+
+Task 5
   593  awk '$1 ~ /^t/' lastsp24.fake | awk '{print $1}' | sort | uniq
-  594  awk -F: '($1 ~ /^a/ && $3 % 2 == 0) {print $1}' passwd.fake | sort | uniq
-  595  sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u
+  
+Task 6
+594  awk -F: '($1 ~ /^a/ && $3 % 2 == 0) {print $1}' passwd.fake | sort | uniq
+  
+Task 7
+595  sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u
   596  ls
   597  vi Assignment3.txt
   598  ls

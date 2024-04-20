@@ -41,7 +41,7 @@ Task 2
 591  awk '($7 >= "23:00" || $7 <= "04:00") {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}'
 
  Task 4  
-592  awk '($7 >= "05:00" || $7 <= "09:00") {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}'
+592  awk '($7 >= "05:00" && $7 <= "09:00") {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}'
 
 Task 5
   593  awk '$1 ~ /^t/' lastsp24.fake | awk '{print $1}' | sort | uniq

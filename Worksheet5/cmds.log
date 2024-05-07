@@ -1,0 +1,27 @@
+  657  mkdir Worksheet5
+  658  ls
+  659  cd Worksheet5
+  660  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  661  ls
+  662  cat 'Global YouTube Statistics.csv'
+  663  touch Music.txt
+  664  touch Entertainment.txt
+  665  touch Gaming.txt
+  666  touch Comedy.txt
+  667  vi script.sh
+  668  chmod +x script.sh
+  669  ./script.sh
+  670  ls
+  671  cat Gaming.txt
+  672  cat ws5.txt
+  673  vi script.sh
+  674  ./script.sh
+  675  vi script.sh
+  676  ./script.sh
+  677  ls
+  678  cat ws5.txt
+  679  vi script.sh
+  680  ./script.sh
+  681  ls
+  682  cat ws5.txt
+  683  history > cmds.log

@@ -1,27 +1,43 @@
-  657  mkdir Worksheet5
-  658  ls
-  659  cd Worksheet5
-  660  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
-  661  ls
-  662  cat 'Global YouTube Statistics.csv'
-  663  touch Music.txt
-  664  touch Entertainment.txt
-  665  touch Gaming.txt
-  666  touch Comedy.txt
-  667  vi script.sh
-  668  chmod +x script.sh
-  669  ./script.sh
-  670  ls
-  671  cat Gaming.txt
-  672  cat ws5.txt
-  673  vi script.sh
-  674  ./script.sh
-  675  vi script.sh
-  676  ./script.sh
-  677  ls
-  678  cat ws5.txt
-  679  vi script.sh
-  680  ./script.sh
-  681  ls
-  682  cat ws5.txt
-  683  history > cmds.log
+    1  history -p
+    2  ls
+    3  cd cs131
+    4  ls
+    5  cd Worksheet5
+    6  ls
+    7  rm Comedy.txt
+    8  ls
+    9  rm Gaming.txt
+   10  rm Music.txt
+   11  rm ws5.txt
+   12  rm Entertainment.txt
+   13  ls
+   14  rm cmds.log
+   15  mkdir 'United States'
+   16  ls
+   17  cd 'United States'
+   18  ls
+   19  touch Music.txt
+   20  touch Entertainment.txt
+   21  touch Gaming.txt
+   22  touch Comedy.txt
+   23  ls
+   24  cd ..
+   25  ls
+   26  head 'Global Youtube Statistics.csv'
+   27  head 'Global YouTube Statistics.csv'
+   28  vi script.sh
+   29  ./script.sh
+   30  ls
+   31  cat ws5.txt
+   32  git add script.sh
+   33  git add ws5.txt
+   34  cd 'United States'
+   35  ls
+   36  git add Comedy.txt
+   37  git add Entertainment.txt
+   38  git add Gaming.txt
+   39  git Music.txt
+   40  git add Music.txt
+   41  cd ..
+   42  ls
+   43  history > cmds.log
